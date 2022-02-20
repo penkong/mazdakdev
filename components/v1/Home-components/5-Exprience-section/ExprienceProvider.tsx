@@ -24,7 +24,7 @@ const _ExprienceProvider = () => {
                       alt=""
                       className="mr-4"
                       src="img/zhoon.png"
-                      style={{ width: '25%' }}
+                      width={'25%'}
                     />
                     <div className="media-body">
                       <h5 className="my-0">
