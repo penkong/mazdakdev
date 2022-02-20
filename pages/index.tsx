@@ -1,8 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { LayoutProvider } from '../layout/'
-import { HomeProvider } from '../components/v1'
+import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
@@ -13,9 +12,15 @@ const Home: NextPage = () => {
         <meta name="keywords" content="keywords" />
         <title>Penbeh - Mazdak</title>
       </Head>
-      <LayoutProvider>
+      {/* <LayoutProvider>
         <HomeProvider />
-      </LayoutProvider>
+      </LayoutProvider> */}
+      <div className={styles.main}>
+        <div>in persian we say : the potter drink from broken jar!</div>
+        <div>currently dont have time to make beauty for myself</div>
+        <div>mail : nazemi.works@gmail.com</div>
+        <div>Best!</div>
+      </div>
     </>
   )
 }

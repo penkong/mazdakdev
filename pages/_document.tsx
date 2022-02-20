@@ -33,23 +33,12 @@ export default class MyDocument extends Document {
             content="mazdak nazemi - fullstack developer"
           />
           <meta name="author" content="mazdak nazemi" />
-          <link rel="stylesheet" href="css/style.css"></link>
           <link rel="icon" type="image/png" href="favicon.png"></link>
           <title>Mazdak - The Developer!</title>
         </Head>
         <body className="fixed-footer">
           <Main />
           <NextScript />
-          <script src="js/jquery-1.12.4.min.js"></script>
-          <script src="js/popper.min.js"></script>
-          <script src="js/bootstrap.min.js"></script>
-          <script src="js/jarallax.min.js"></script>
-          <script src="js/jquery.validate.min.js"></script>
-          <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-          <script src="js/jquery.ajaxchimp.min.js"></script>
-          <script src="js/aos.js"></script>
-          <script src="js/owl.carousel.min.js"></script>
-          <script src="js/interface.js"></script>
         </body>
       </Html>
     )
