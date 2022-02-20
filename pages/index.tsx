@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       </LayoutProvider> */}
       <div className={styles.main}>
         <div>in persian we say : the potter drink from broken jar!</div>
-        <div>currently dont have time to make beauty for myself</div>
+        <div>currently dont have time to make a beauty for myself</div>
         <div>mail : nazemi.works@gmail.com</div>
         <div>Best!</div>
       </div>

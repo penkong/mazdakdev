@@ -8,6 +8,10 @@
   background-color: #fff;
   color: black;
 }
+
+.main > div {
+  margin-bottom: 10px;
+}
 /* .container {
   padding: 0 2rem;
 }
