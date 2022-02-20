@@ -8,12 +8,10 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <head>
-          <meta name="text" content="nane" />
-          <meta name="description" content="description" />
-          <meta name="keywords" content="keywords" />
-          <title>Penbeh - Mazdak</title>
-        </head>
+        <meta name="text" content="nane" />
+        <meta name="description" content="description" />
+        <meta name="keywords" content="keywords" />
+        <title>Penbeh - Mazdak</title>
       </Head>
       <LayoutProvider>
         <HomeProvider />

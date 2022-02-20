@@ -14,7 +14,7 @@ const _AboutProvider = () => {
             </h2>
           </div>
           <div className="px-0 col-md-6 col-lg-4" data-aos="blur">
-            <Image alt="" className="w-100" src="img/me.7ee939e3.jpg" />
+            <Image alt="ss" className="w-100" src="img/me.7ee939e3.jpg" />
           </div>
         </div>
         <div className="mx-0 row">

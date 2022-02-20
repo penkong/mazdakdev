@@ -19,7 +19,7 @@ const _SpecializationProvider = () => {
             className="px-0 col-md-6 order-md-1 order-lg-2 col-lg-4"
             data-aos="blur"
           >
-            <Image alt="" className="w-100" src="img/exprience.jpg" />
+            <Image alt="ss" className="w-100" src="img/exprience.jpg" />
           </div>
           <div
             className="pl-0 mt-5 col-md-6 offset-md-6 offset-lg-0 order-md-3 order-lg-3 col-lg-4 pl-md-30 mt-md-0"

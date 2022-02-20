@@ -15,7 +15,7 @@ const _NewsProvider = () => {
               <a href="#">
                 <figure className="hover">
                   <Image
-                    alt=""
+                    alt="ss"
                     className="w-100"
                     src="img/news/370x434-1.jpg"
                   />
@@ -73,7 +73,7 @@ const _NewsProvider = () => {
               <a href="#">
                 <figure className="hover">
                   <Image
-                    alt=""
+                    alt="ss"
                     className="w-100"
                     src="img/news/370x434-2.jpg"
                   />

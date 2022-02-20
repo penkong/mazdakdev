@@ -21,7 +21,7 @@ const _ExprienceProvider = () => {
                 <div className="pl-0 mb-4 col-lg-4 mb-lg-0">
                   <div className="media align-items-center">
                     <Image
-                      alt=""
+                      alt="ss"
                       className="mr-4"
                       src="img/zhoon.png"
                       width={'25%'}
@@ -59,7 +59,7 @@ const _ExprienceProvider = () => {
                     <div className="order-2 pl-0 mb-4 col-lg-4 mb-lg-0">
                       <div className="media align-items-center">
                         <Image
-                          alt=""
+                          alt="ss"
                           className="mr-4"
                           src="img/shekarestan.jpg"
                         />
@@ -92,7 +92,7 @@ const _ExprienceProvider = () => {
                 </div>
                 <div className="pl-0 mb-4 col-lg-4 mb-lg-0">
                   <div className="media align-items-center">
-                    <Image alt="" className="mr-4" src="img/free.png" />
+                    <Image alt="ss" className="mr-4" src="img/free.png" />
                     <div className="media-body">
                       <h5 className="my-0">
                         Dive Dev - Freelancer

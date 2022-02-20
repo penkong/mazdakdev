@@ -29,14 +29,14 @@ const _TestimonialsProvider = () => {
                     data-aos="blur"
                   >
                     <Image
-                      alt=""
+                      alt="ss"
                       className="w-100"
                       src="img/testimonials/370x434-1.jpg"
                     />
                   </div>
                   <div className="px-0 mt-5 col-lg-6 col-xl-5 offset-xl-1 pl-lg-30px pl-xl-0 mt-lg-0">
                     <div className="mb-5 quote">
-                      <Image alt="" src="img/quote.png" />
+                      <Image alt="ss" src="img/quote.png" />
                     </div>
                     <p className="mb-0">
                       "I will give you a complete account of the system, and
@@ -60,7 +60,7 @@ const _TestimonialsProvider = () => {
                     data-aos="blur"
                   >
                     <Image
-                      alt=""
+                      alt="ss"
                       className="w-100"
                       src="img/testimonials/370x434-2.jpg"
                     />
@@ -91,14 +91,14 @@ const _TestimonialsProvider = () => {
                     data-aos="blur"
                   >
                     <Image
-                      alt=""
+                      alt="ss"
                       className="w-100"
                       src="img/testimonials/370x434-3.jpg"
                     />
                   </div>
                   <div className="px-0 mt-5 col-lg-6 col-xl-5 offset-xl-1 pl-lg-30px pl-xl-0 mt-lg-0">
                     <div className="mb-5 quote">
-                      <Image alt="" src="img/quote.png" />
+                      <Image alt="ss" src="img/quote.png" />
                     </div>
                     <p className="mb-0">
                       "I will give you a complete account of the system, and
