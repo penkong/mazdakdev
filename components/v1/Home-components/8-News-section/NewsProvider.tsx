@@ -1,5 +1,5 @@
-import React from "react";
-
+import React from 'react'
+import Image from 'next/image'
 const _NewsProvider = () => {
   return (
     <section id="news" className="pb-0 section">
@@ -14,7 +14,11 @@ const _NewsProvider = () => {
             <div className="px-0 col-md-6 col-lg-4" data-aos="blur">
               <a href="#">
                 <figure className="hover">
-                  <img alt="" className="w-100" src="img/news/370x434-1.jpg" />
+                  <Image
+                    alt=""
+                    className="w-100"
+                    src="img/news/370x434-1.jpg"
+                  />
                 </figure>
               </a>
             </div>
@@ -25,7 +29,7 @@ const _NewsProvider = () => {
               <p>
                 <a href="#" className="text-dark font-weight-bold">
                   Illustration
-                </a>{" "}
+                </a>{' '}
                 / June 06, 2020
               </p>
             </div>
@@ -33,7 +37,7 @@ const _NewsProvider = () => {
               <p className="mb-0">
                 We have experience in implementing projects for many large
                 domestic and foreign corporations, enterprises in many elds such
-                as nance, banking, F&B, education, communication...{" "}
+                as nance, banking, F&B, education, communication...{' '}
                 <a href="">read more</a>
               </p>
             </div>
@@ -49,7 +53,7 @@ const _NewsProvider = () => {
               <p>
                 <a href="#" className="text-dark font-weight-bold">
                   Branding
-                </a>{" "}
+                </a>{' '}
                 / June 06, 2020
               </p>
             </div>
@@ -68,7 +72,11 @@ const _NewsProvider = () => {
             >
               <a href="#">
                 <figure className="hover">
-                  <img alt="" className="w-100" src="img/news/370x434-2.jpg" />
+                  <Image
+                    alt=""
+                    className="w-100"
+                    src="img/news/370x434-2.jpg"
+                  />
                 </figure>
               </a>
             </div>
@@ -76,7 +84,7 @@ const _NewsProvider = () => {
         </section>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export const NewsProvider = _NewsProvider;
+export const NewsProvider = _NewsProvider

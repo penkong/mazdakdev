@@ -1,5 +1,5 @@
-import React from "react";
-
+import React from 'react'
+import Image from 'next/image'
 const _ExprienceProvider = () => {
   return (
     <section id="experience" className="pb-0 section" data-aos="fade-up">
@@ -20,11 +20,11 @@ const _ExprienceProvider = () => {
                 </div>
                 <div className="pl-0 mb-4 col-lg-4 mb-lg-0">
                   <div className="media align-items-center">
-                    <img
+                    <Image
                       alt=""
                       className="mr-4"
                       src="img/zhoon.png"
-                      style={{ width: "25%" }}
+                      style={{ width: '25%' }}
                     />
                     <div className="media-body">
                       <h5 className="my-0">
@@ -58,7 +58,7 @@ const _ExprienceProvider = () => {
                   <section className="mx-0 row">
                     <div className="order-2 pl-0 mb-4 col-lg-4 mb-lg-0">
                       <div className="media align-items-center">
-                        <img
+                        <Image
                           alt=""
                           className="mr-4"
                           src="img/shekarestan.jpg"
@@ -92,7 +92,7 @@ const _ExprienceProvider = () => {
                 </div>
                 <div className="pl-0 mb-4 col-lg-4 mb-lg-0">
                   <div className="media align-items-center">
-                    <img alt="" className="mr-4" src="img/free.png" />
+                    <Image alt="" className="mr-4" src="img/free.png" />
                     <div className="media-body">
                       <h5 className="my-0">
                         Dive Dev - Freelancer
@@ -317,7 +317,7 @@ const _ExprienceProvider = () => {
         </div>
       </section>
     </section>
-  );
-};
+  )
+}
 
-export const ExprienceProvider = _ExprienceProvider;
+export const ExprienceProvider = _ExprienceProvider

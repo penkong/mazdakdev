@@ -1,5 +1,5 @@
-import React from "react";
-
+import React from 'react'
+import Image from 'next/image'
 const _TestimonialsProvider = () => {
   return (
     <section id="testimonials" className="pb-0 section">
@@ -11,11 +11,11 @@ const _TestimonialsProvider = () => {
                 className="my-0 testimonials-title wide-lg"
                 data-aos="fade-right"
               >
-                Testimonials{" "}
+                Testimonials{' '}
                 <span className="text-primary">
                   from
                   <br /> my best
-                </span>{" "}
+                </span>{' '}
                 Clients
               </h2>
             </div>
@@ -28,7 +28,7 @@ const _TestimonialsProvider = () => {
                     className="px-0 col-lg-6 col-xl-auto mr-xl-4"
                     data-aos="blur"
                   >
-                    <img
+                    <Image
                       alt=""
                       className="w-100"
                       src="img/testimonials/370x434-1.jpg"
@@ -36,7 +36,7 @@ const _TestimonialsProvider = () => {
                   </div>
                   <div className="px-0 mt-5 col-lg-6 col-xl-5 offset-xl-1 pl-lg-30px pl-xl-0 mt-lg-0">
                     <div className="mb-5 quote">
-                      <img alt="" src="img/quote.png" />
+                      <Image alt="" src="img/quote.png" />
                     </div>
                     <p className="mb-0">
                       "I will give you a complete account of the system, and
@@ -45,7 +45,7 @@ const _TestimonialsProvider = () => {
                     </p>
                     <h5 className="mt-4 mb-0">
                       Hayley
-                      <br />{" "}
+                      <br />{' '}
                       <span className="text-body font-weight-normal">
                         Apple inc.
                       </span>
@@ -59,7 +59,7 @@ const _TestimonialsProvider = () => {
                     className="px-0 col-lg-6 col-xl-auto mr-xl-4"
                     data-aos="blur"
                   >
-                    <img
+                    <Image
                       alt=""
                       className="w-100"
                       src="img/testimonials/370x434-2.jpg"
@@ -67,7 +67,7 @@ const _TestimonialsProvider = () => {
                   </div>
                   <div className="px-0 mt-5 col-lg-6 col-xl-5 offset-xl-1 pl-lg-30px pl-xl-0 mt-lg-0">
                     <div className="mb-5 quote">
-                      <img alt="" src="img/quote.png" />
+                      <Image alt="" src="img/quote.png" />
                     </div>
                     <p className="mb-0">
                       "I will give you a complete account of the system, and
@@ -76,7 +76,7 @@ const _TestimonialsProvider = () => {
                     </p>
                     <h5 className="mt-4 mb-0">
                       Richard
-                      <br />{" "}
+                      <br />{' '}
                       <span className="text-body font-weight-normal">
                         Envato
                       </span>
@@ -90,7 +90,7 @@ const _TestimonialsProvider = () => {
                     className="px-0 col-lg-6 col-xl-auto mr-xl-4"
                     data-aos="blur"
                   >
-                    <img
+                    <Image
                       alt=""
                       className="w-100"
                       src="img/testimonials/370x434-3.jpg"
@@ -98,7 +98,7 @@ const _TestimonialsProvider = () => {
                   </div>
                   <div className="px-0 mt-5 col-lg-6 col-xl-5 offset-xl-1 pl-lg-30px pl-xl-0 mt-lg-0">
                     <div className="mb-5 quote">
-                      <img alt="" src="img/quote.png" />
+                      <Image alt="" src="img/quote.png" />
                     </div>
                     <p className="mb-0">
                       "I will give you a complete account of the system, and
@@ -107,7 +107,7 @@ const _TestimonialsProvider = () => {
                     </p>
                     <h5 className="mt-4 mb-0">
                       Amanda
-                      <br />{" "}
+                      <br />{' '}
                       <span className="text-body font-weight-normal">
                         Google inc.
                       </span>
@@ -120,7 +120,7 @@ const _TestimonialsProvider = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export const TestimonialsProvider = _TestimonialsProvider;
+export const TestimonialsProvider = _TestimonialsProvider

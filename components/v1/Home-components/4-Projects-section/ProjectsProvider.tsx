@@ -1,5 +1,5 @@
-import React from "react";
-
+import React from 'react'
+import Image from 'next/image'
 const _ProjectsProvider = () => {
   return (
     <section id="works" className="pb-0 section">
@@ -13,7 +13,7 @@ const _ProjectsProvider = () => {
           <div>
             <a href="https://www.zhoon.ir/">
               <figure className="hover">
-                <img
+                <Image
                   alt="zhoon.ir"
                   className="img-responsive"
                   src="img/portfolio/zhoon.png"
@@ -31,7 +31,7 @@ const _ProjectsProvider = () => {
           <div>
             <a href="http://www.lilioomflower.ir">
               <figure className="hover">
-                <img
+                <Image
                   alt="lilioomflower.ir"
                   className="img-responsive"
                   src="img/portfolio/lilioom.png"
@@ -49,7 +49,7 @@ const _ProjectsProvider = () => {
           <div>
             <a href="http://www.sorriso.ir" target="_blank">
               <figure className="hover">
-                <img
+                <Image
                   alt="sorriso.ir"
                   className="img-responsive"
                   src="img/portfolio/sorriso.png"
@@ -65,7 +65,7 @@ const _ProjectsProvider = () => {
           <div>
             <a href="http://www.shahrzadhoney.ir" target="_blank">
               <figure className="hover">
-                <img
+                <Image
                   alt="shahrzadhoney.ir"
                   className="img-responsive"
                   src="img/portfolio/shahrzad.png"
@@ -83,7 +83,7 @@ const _ProjectsProvider = () => {
           <div>
             <a href="http://www.vivaan.ir" target="_blank">
               <figure className="hover">
-                <img
+                <Image
                   alt="vivaan.ir"
                   className="img-responsive"
                   src="img/portfolio/vivaan.png"
@@ -99,7 +99,7 @@ const _ProjectsProvider = () => {
           <div>
             <a href="http://www.noyasnacks.com" target="_blank">
               <figure className="hover">
-                <img
+                <Image
                   alt="noyasnacks.com"
                   className="img-responsive"
                   src="img/portfolio/noyasnacks.png"
@@ -115,7 +115,7 @@ const _ProjectsProvider = () => {
           <div>
             <a href="http://www.drshahmard.com" target="_blank">
               <figure className="hover">
-                <img
+                <Image
                   alt="drshahmard.com"
                   className="img-responsive"
                   src="img/portfolio/noyasnacks.png"
@@ -131,7 +131,7 @@ const _ProjectsProvider = () => {
         </div>
       </section>
     </section>
-  );
-};
+  )
+}
 
-export const ProjectsProvider = _ProjectsProvider;
+export const ProjectsProvider = _ProjectsProvider

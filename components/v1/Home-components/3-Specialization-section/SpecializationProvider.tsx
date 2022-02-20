@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react'
+import Image from 'next/image'
 
 const _SpecializationProvider = () => {
   return (
@@ -18,7 +19,7 @@ const _SpecializationProvider = () => {
             className="px-0 col-md-6 order-md-1 order-lg-2 col-lg-4"
             data-aos="blur"
           >
-            <img alt="" className="w-100" src="img/exprience.jpg" />
+            <Image alt="" className="w-100" src="img/exprience.jpg" />
           </div>
           <div
             className="pl-0 mt-5 col-md-6 offset-md-6 offset-lg-0 order-md-3 order-lg-3 col-lg-4 pl-md-30 mt-md-0"
@@ -26,7 +27,7 @@ const _SpecializationProvider = () => {
           >
             <p
               className="mb-0 pl-md-30px"
-              style={{ fontSize: "1.4rem", color: "black" }}
+              style={{ fontSize: '1.4rem', color: 'black' }}
             >
               I have experience in implementing projects for small and large
               domestic, enterprises in many different stacks and different kind,
@@ -45,7 +46,7 @@ const _SpecializationProvider = () => {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "80%" }}
+                  style={{ width: '80%' }}
                   aria-valuenow={80}
                   aria-valuemin={0}
                   aria-valuemax={80}
@@ -63,7 +64,7 @@ const _SpecializationProvider = () => {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "70%" }}
+                  style={{ width: '70%' }}
                   aria-valuenow={70}
                   aria-valuemin={0}
                   aria-valuemax={70}
@@ -85,7 +86,7 @@ const _SpecializationProvider = () => {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "90%" }}
+                  style={{ width: '90%' }}
                   aria-valuenow={90}
                   aria-valuemin={0}
                   aria-valuemax={90}
@@ -102,7 +103,7 @@ const _SpecializationProvider = () => {
         </section>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export const SpecializationProvider = _SpecializationProvider;
+export const SpecializationProvider = _SpecializationProvider

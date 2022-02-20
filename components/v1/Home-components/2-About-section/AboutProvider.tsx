@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react'
+import Image from 'next/image'
 
 const _AboutProvider = () => {
   return (
@@ -13,7 +14,7 @@ const _AboutProvider = () => {
             </h2>
           </div>
           <div className="px-0 col-md-6 col-lg-4" data-aos="blur">
-            <img alt="" className="w-100" src="img/me.7ee939e3.jpg" />
+            <Image alt="" className="w-100" src="img/me.7ee939e3.jpg" />
           </div>
         </div>
         <div className="mx-0 row">
@@ -68,7 +69,7 @@ const _AboutProvider = () => {
         </div>
       </section>
     </section>
-  );
-};
+  )
+}
 
-export const AboutProvider = _AboutProvider;
+export const AboutProvider = _AboutProvider
