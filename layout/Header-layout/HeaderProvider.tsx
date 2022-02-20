@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const _HeaderProvider = () => {
   return (
@@ -51,7 +51,7 @@ const _HeaderProvider = () => {
               </li>
             </ul>
 
-            <ul className="mr-2 social-icons d-none d-lg-block">
+            {/* <ul className="mr-2 social-icons d-none d-lg-block">
               <li>
                 <a href="https://www.github.com/penkong" target="_blank">
                   <ion-icon name="logo-github"></ion-icon>
@@ -70,7 +70,7 @@ const _HeaderProvider = () => {
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <button className="toggler d-block d-lg-none">
@@ -82,7 +82,7 @@ const _HeaderProvider = () => {
       </nav>
 
       <nav className="navbar navbar-mobile d-lg-none">
-        <ion-icon className="close" name="close-outline"></ion-icon>
+        {/* <ion-icon className="close" name="close-outline"></ion-icon> */}
 
         <ul className="language">
           <li className="active">
@@ -130,7 +130,7 @@ const _HeaderProvider = () => {
         <div className="navbar-mobile-footer"></div>
       </nav>
     </>
-  );
-};
+  )
+}
 
-export const HeaderProvider = _HeaderProvider;
+export const HeaderProvider = _HeaderProvider
