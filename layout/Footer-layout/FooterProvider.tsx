@@ -106,7 +106,7 @@ const _FooterProvider = () => {
               <p className="mb-0"></p>
             </div>
             <div className="pl-0 mt-5 col-md-6 col-lg-4 pr-md-30px mt-md-0">
-              <ul className="social-icons d-none d-sm-block">
+              {/* <ul className="social-icons d-none d-sm-block">
                 <li>
                   <a href="https://www.github.com/penkong" target="_blank">
                     <ion-icon name="logo-github"></ion-icon>
@@ -122,7 +122,7 @@ const _FooterProvider = () => {
                     <ion-icon name="logo-linkedin"></ion-icon>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
             {/*
           <div className="pl-0 mt-5 col-md-6 col-lg-4 mt-lg-0">
