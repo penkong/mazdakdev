@@ -46,16 +46,24 @@ const Home: NextPage = () => {
           <div className="second">
             <div className="desc">
               <p>
-                this is Mazdak like Mazda (that car brand) with k at end easy to
-                pronounce , already delivered some nice products to people for
-                people my mindset is like Architecture , engineering over
+                this is Mazdak like Mazda (that car brand) with k at end , easy
+                to pronounce , already delivered some nice products to people
+                for people , my mindset is like Architecture , engineering over
                 scripting , no rush for dirty hands , more into to be a techi ,
-                I can code with Javascript , Typescrip (typo) , Go and also dear
+                I can code with Javascript , Typescrip(typo) , Go and also dear
                 Rust upcoming one , with thier related libraries , frameworks
-                and stuff to them , and ...
+                and stuff to them , and full capability and cofidence to
+                implement any type of business logic .
               </p>
             </div>
             <div className="tags">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://www.linkedin.com/in/mazdak-nazemi-5a7950142/"
+              >
+                Mein Linkedin
+              </a>
               <a
                 rel="noopener noreferrer"
                 target="_blank"
@@ -82,7 +90,7 @@ const Home: NextPage = () => {
                 target="_blank"
                 href="https://stackoverflow.com/users/11584130/mazdak"
               >
-                Mein Snackoverlow
+                Mein Snackoverflow
               </a>
               <a
                 rel="noopener noreferrer"

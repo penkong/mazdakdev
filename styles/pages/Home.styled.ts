@@ -22,9 +22,9 @@ export const WrapperStyled = styled.div`
     background-color: #15202b;
     border-radius: 0.5rem;
     width: 90%;
-    height: 40%;
+    height: 35%;
     .img {
-      width: 25rem;
+      width: 22rem;
     }
     .texi {
       display: flex;
@@ -93,6 +93,7 @@ export const WrapperStyled = styled.div`
         flex-direction: column;
         justify-content: space-around;
         max-height: 5rem;
+        margin-bottom: 1rem;
       }
     }
     .second {
@@ -103,12 +104,13 @@ export const WrapperStyled = styled.div`
       padding: 0 1rem;
       flex-direction: column;
       margin-bottom: 0;
-      margin-top: 0;
       .desc {
+        margin-top: -1rem;
         line-height: 1.5rem;
         width: 90%;
       }
       .tags {
+        margin-top: -2rem;
         width: 90%;
       }
     }
@@ -145,16 +147,25 @@ export const WrapperStyled = styled.div`
       }
     }
     .second {
-      justify-content: space-evenly;
+      height: 60%;
       .desc {
         font-size: 15px;
         line-height: 1.4rem;
         width: 96%;
       }
       .tags {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         font-size: 14px;
         height: 9rem;
         width: 90%;
+        a {
+          margin-right: 0.5rem;
+          min-width: 6rem;
+        }
       }
     }
   }
